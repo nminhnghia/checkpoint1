@@ -5,4 +5,8 @@ function giaithua(n){
     }
     console.log(giai_thua)
 }
-giaithua(15)
+let sotunhien = document.getElementById("sotunhien")
+
+function submit() {
+    giaithua(sotunhien.value)
+}
