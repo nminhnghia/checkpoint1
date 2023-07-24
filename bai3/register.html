@@ -26,22 +26,27 @@
             <div>
                 <p>Tên</p>
                 <input type="text" class="register" id="name" placeholder="Nhập tên">
+                <p id="nameError"></p>
 
                 <p>Ngày sinh</p>
                 <input type="text" class="register" id="dateofbirth" placeholder="Nhập ngày sinh">
+                <p id="dobError"></p>
 
                 <p>Email</p>
                 <input type="text" class="register" id="email" placeholder="Nhập Email">
+                <p id="emailError"></p>
 
                 <p>Mật khẩu</p>
                 <input type="password" class="register" id="password" placeholder="Nhập mật khẩu">
+                <p id="passError"></p>
 
                 <p>Nhập lại mật khẩu</p>
                 <input type="password" class="register" id="confirmpassword" placeholder="Nhập lại mật khẩu">
+                <p id="conpassError"></p>
             </div>
             <div>
                 <div>
-                    <button type="submit" id="register_button" onclick="save()">Đăng ký</button>
+                    <button type="submit" id="register_button" onclick="check()">Đăng ký</button>
                 </div>
                 <div class="container_line">
                     <div class="line"></div>
