@@ -18,13 +18,14 @@ let passError = document.getElementById("passError")
 let conpassError = document.getElementById("conpassError")
 let dobError = document.getElementById("dobError")
 let nameError = document.getElementById("nameError")
-let valueEmail = email.value
-let valuePassword = password.value
-let valueName = fname.value
-let valueDob = dateofbirth.value
-let valueConPassword = conpassword.value
+
 
 function check() {
+    let valueEmail = email.value
+    let valuePassword = password.value
+    let valueName = fname.value
+    let valueDob = dateofbirth.value
+    let valueConPassword = conpassword.value
     if (valueEmail == "") { // kiểm tra xem có nhập email chưa
         emailError.innerHTML = "Chưa nhập email"
         emailError.style = "color: red; display: block;"
